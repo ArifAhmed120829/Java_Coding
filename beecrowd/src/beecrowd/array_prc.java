@@ -33,12 +33,24 @@ public class array_prc {
 			}
 			
 		}
-		for(j =0; j<5; j++)
-			System.out.println("par["+j+"] = "+par[j]);
-		for(k =0; k<5; k++)
-			System.out.println("impar["+k+"] = "+impar[k]);
+		for(i =0; i<x; i++) {
+			if(par[j]%2==0) 
+				System.out.println("par["+j+"] = "+par[j]);
+				j++;
+				if(j==5) j=0;
+				
+			
+				else
+				System.out.println("impar["+k+"] = "+impar[k]);
+				k++;
+				if(k==5) k=0;
+			}
+	}
+	
+			
+		
 		
 
 	}
 
-}
+
