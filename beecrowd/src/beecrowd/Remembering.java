@@ -54,6 +54,20 @@ public class Remembering {
 		boolean x = false;
 		arif2 practice2 = new arif2();
 		practice2.ifelse(x);
+		int[] numbers = {3,9,5,-5};
+		//for-each loop
+		/*
+		for(dataType item : array) {
+		    ...
+		}
+		*/
+		for(int number: numbers) {
+			System.out.println(number);
+		}
+		String[] arr1 = {"abir","arif","mehedi","tanim","sakil"};
+		for(String newString: arr1) {
+			System.out.println(newString);
+		}
 
 	}
 
