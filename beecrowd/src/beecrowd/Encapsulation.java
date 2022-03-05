@@ -36,6 +36,7 @@ private String name;
 	
 	public String getFirst() {
 		return name;//The get method returns the variable value,The get method returns the value of the variable name.
+		//In Java, getter and setter are two conventional methods that are used for retrieving and updating value of a variable.
 	}
 	public void setirst(String newName) {//The set method takes a parameter (newName) & assigns it to the name variable.
 		this.name = newName;//the set method sets the value.The this keyword is used to refer to the current object.

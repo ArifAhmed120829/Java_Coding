@@ -11,7 +11,11 @@ public class For_each {
 		//In the loop body, you can use the loop variable you created rather than using an indexed array element. 
 		//It’s commonly used to iterate over an array or a Collections class (eg, ArrayList)
 		//base type of the array : array name{ loop variable };
-		
+		int[]arr69 = {10,2,0,2,5};
+		for(int item:  arr69) {
+			System.out.println(item);
+		}
+		 
 
 	}
 
