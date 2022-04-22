@@ -21,11 +21,16 @@ public class b_1040 {
 		System.out.println();
 		if(5.0<=avg && avg<6.9) {
 			System.out.println("Aluno em exame.");
-			System.out.println("Nota do exame: ");
+			
 			float e = in.nextFloat();
+			System.out.println("Nota do exame: "+e);
 			float avg2 = (e + avg) / 2;
-			if(avg2>=5) System.out.println("Aluno aprovado.");
-			else if(avg2<=4.9) System.out.println("Aluno reprovado.");
+			if(avg2>=5.0) {
+				System.out.println("Aluno aprovado.");
+			}
+			else if(avg2<=4.9) {
+				System.out.println("Aluno reprovado.");
+			}
 			System.out.printf("Media final: %.1f",avg2);
 		}
 		else if(avg>=7.0) {
