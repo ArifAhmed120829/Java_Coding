@@ -22,7 +22,9 @@ public class gounik_or_factorial {
 		
 		else {
 			res = recursion(num - 1) * num;
-			System.out.println(res);
+			// res = recursion(5) * 6;
+			//System.out.println(res);//1,2,6,24,120,720
+			//2,4,12,48,240,1440
 			return res;
 		}
 		
